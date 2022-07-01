@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--HomeScreen strings-->
+    <string name="topString">Wallet</string>
+    <string name="manageAccountsButtonText">Manage accounts</string>
+    <string name="recentTransactionsText">Recent transactions</string>
+
+    <!--AssetCards strings-->
+
+    <!--Add new asset cardView-->
+    <string name="addNewAssetButtonDescription">Button to add new asset</string>
+    <string name="addAccountTextView">Add account</string>
+    <string name="addAccountSubtext1">Manage your crypto stacks separately</string>
+    <string name="addAccountSubtext2">For example\nDay-to-day payments, Long-term savings, dApp play funds</string>
+
+    <!--Transaction dialog strings-->
+    <string name="receivedTransactionText">Received to</string>
+    <string name="sentTransactionText">Sent to</string>
+
+</resources>

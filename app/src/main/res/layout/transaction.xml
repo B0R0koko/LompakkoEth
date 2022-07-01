@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:id="@+id/transactionView"
+    android:layout_width="match_parent"
+    android:layout_height="50dp">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/blockchainImageView"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/ethereum"
+        app:shapeAppearance="@style/circularImageView"
+        app:strokeWidth="1dp"
+        app:strokeColor="@color/grey"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="30dp"/>
+
+    <TextView
+        android:id="@+id/blockchainNameTransaction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ethereum"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toEndOf="@id/blockchainImageView"
+        app:layout_constraintTop_toTopOf="@id/blockchainImageView"
+        android:layout_marginStart="15dp" />
+
+    <TextView
+        android:id="@+id/transactionTimePassed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sent 2 years ago"
+        android:textColor="@color/grey"
+        android:textSize="11sp"
+        app:layout_constraintStart_toStartOf="@id/blockchainNameTransaction"
+        app:layout_constraintTop_toBottomOf="@id/blockchainNameTransaction" />
+
+    <TextView
+        android:id="@+id/transactionAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-0.0513 ETH"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="@id/blockchainNameTransaction"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginEnd="30dp" />
+
+    <TextView
+        android:id="@+id/transactionFiatAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RUB 10,300.70"
+        android:textSize="11sp"
+        android:textColor="@color/grey"
+        app:layout_constraintBottom_toBottomOf="@id/transactionTimePassed"
+        app:layout_constraintEnd_toEndOf="@id/transactionAmount" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

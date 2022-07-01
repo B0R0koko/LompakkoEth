@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Development/AndroidStudioProjects/App/app/src/main/res/drawable/scan_qr_code.xml" value="0.2545" />
+        <entry key="..\:/Development/AndroidStudioProjects/App/app/src/main/res/drawable/transaction_dialog.xml" value="0.332" />
+        <entry key="..\:/Development/AndroidStudioProjects/App/app/src/main/res/layout/account.xml" value="0.3489583333333333" />
+        <entry key="..\:/Development/AndroidStudioProjects/App/app/src/main/res/layout/account_dialog.xml" value="0.8375" />
+        <entry key="..\:/Development/AndroidStudioProjects/App/app/src/main/res/layout/activity_home_screen.xml" value="0.3378623188405797" />
+        <entry key="..\:/Development/AndroidStudioProjects/App/app/src/main/res/layout/activity_manage_accounts.xml" value="0.2259963768115942" />
+        <entry key="..\:/Development/AndroidStudioProjects/App/app/src/main/res/layout/add_account.xml" value="0.3489583333333333" />
+        <entry key="..\:/Development/AndroidStudioProjects/App/app/src/main/res/layout/transaction_dialog.xml" value="0.19655797101449277" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
